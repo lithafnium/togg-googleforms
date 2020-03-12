@@ -130,6 +130,48 @@ header input{
 }
 
 
+
+.headerCard{
+    /* border-left: 7px solid rgba(66, 133, 244, 0); */
+    border-top: 7px solid #673ab7;
+    transition: 0.2s
+}
+
+.headerCard:focus{
+    outline-width: 0; 
+    border-left: 7px solid rgba(66, 133, 244, 0.8);
+    transition: 0.2s
+}
+
+.title{
+    font-weight: 200; 
+    border-bottom: 2px solid rgba(103, 58, 183, 0); 
+    transition: 0.2s; 
+    margin-bottom: 0px; 
+}
+
+.title:focus{
+    border-bottom: 2px solid rgba(103, 58, 183, 0.8);
+    outline-width: 0;
+}
+
+.formDescription{
+    font-size: 0.8rem; 
+    color: #888888;
+    border-bottom: 2px solid rgba(103, 58, 183, 0); 
+    transition: 0.2s; 
+    margin-bottom: 0px; 
+}
+
+.formDescription:focus{
+    border-bottom: 2px solid rgba(103, 58, 183, 0.8);
+    outline-width: 0;
+}
+
+.headerCard hr{
+   margin: 0px 0px 20px 0px; 
+}
+
 .questionTitle{
     padding: 8px 10px 8px 10px; 
     width: 60%; 
